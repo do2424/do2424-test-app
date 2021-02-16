@@ -33,7 +33,7 @@ gem 'jbuilder', '2.6.4'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3', '1.4.2'
+  gem 'sqlite3', '1.3.13'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', '9.0.6', platform: :mri
 end
@@ -47,7 +47,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '0.20.0'
+  gem 'pg', '>= 0.20.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
